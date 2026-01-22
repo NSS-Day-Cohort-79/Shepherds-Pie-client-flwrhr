@@ -2,7 +2,9 @@ Table user {
     id int [pk, increment]
     fullName string
     email string
-    role string
+    phoneNumber string
+    address string
+    isAdmin bool
 }
 
 Table size {
@@ -31,6 +33,9 @@ Table topping {
 Table order {
     id int [pk, increment]
     tableNumber int
+    customerName string
+    phoneNumber string
+    address string
     delivererId int [ref:> user.id]
     userId int [ref:> user.id]
     tipAmount decimal
