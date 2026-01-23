@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Giuseppe Shepherd",
+      "email": "joe@shepherdspies.com",
+      "phoneNumber": "6158675309",
+      "address": "1348 Main Street Nashville, TN",
+      "isAdmin": true
+    },
+    {
+      "id": 2,
+      "fullName": "John Smith",
+      "email": "john@shepherdspies.com",
+      "phoneNumber": "6157482154",
+      "address": "1349 Main Street Nashville, TN",
+      "isAdmin": false
+    }
+  ]
+}
