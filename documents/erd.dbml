@@ -1,0 +1,58 @@
+Table user {
+    id int [pk, increment]
+    fullName string
+    email string
+    phoneNumber string
+    address string
+    isAdmin bool
+}
+
+Table size {
+    id int [pk, increment]
+    name string
+    diameter int
+    baseCost decimal
+}
+
+Table cheese {
+    id int [pk, increment]
+    name string
+}
+
+Table sauce {
+    id int [pk, increment]
+    name string
+}
+
+Table topping {
+    id int [pk, increment]
+    name string
+    cost decimal
+}
+
+Table order {
+    id int [pk, increment]
+    tableNumber int
+    customerName string
+    phoneNumber string
+    address string
+    delivererId int [ref:> user.id]
+    userId int [ref:> user.id]
+    tipAmount decimal
+    date string
+    time string
+}
+
+Table pizza {
+    id int [pk, increment]
+    orderId int [ref:> order.id]
+    sizeId int [ref:> size.id]
+    cheeseId int [ref:> cheese.id]
+    sauceId int [ref:> sauce.id]
+}
+
+Table pizzaToppings {
+    id int [pk, increment]
+    pizzaId int [ref:> pizza.id]
+    toppingId int [ref:> topping.id]
+}
