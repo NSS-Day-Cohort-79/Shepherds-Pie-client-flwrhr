@@ -16,5 +16,31 @@
       "address": "1349 Main Street Nashville, TN",
       "isAdmin": false
     }
+  ],
+  "orders": [
+    {
+        "id": 1,
+        "tableNumber": 0,
+        "customerName": "Avalon Graham",
+        "phoneNumber": "6151247894",
+        "address": "843 Brook Ave Nashville, TN",
+        "delivererId": 2,
+        "userId": 1,
+        "tipAmount": 5.23,
+        "date": "2026/1/23",
+        "time": "11:31"
+    },
+    {
+        "id": 2,
+        "tableNumber": 1,
+        "customerName": "Brick Danforth",
+        "phoneNumber": "6159423167",
+        "address": "934 21st Ave Nashville, TN",
+        "delivererId": 0,
+        "userId": 1,
+        "tipAmount": 5.23,
+        "date": "2026/1/24",
+        "time": "10:21"
+    }
   ]
 }

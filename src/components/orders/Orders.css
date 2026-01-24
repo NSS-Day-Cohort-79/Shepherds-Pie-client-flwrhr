@@ -1,0 +1,11 @@
+.order-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.order-item {
+    flex: auto;
+    border: solid var(--primary);
+    margin: 1rem;
+    padding: 1rem;
+}
