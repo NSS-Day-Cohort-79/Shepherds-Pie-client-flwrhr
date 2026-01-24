@@ -27,7 +27,7 @@
         "delivererId": 2,
         "userId": 1,
         "tipAmount": 5.23,
-        "date": "2026/1/23",
+        "date": "1/23/2026",
         "time": "11:31"
     },
     {
@@ -39,7 +39,7 @@
         "delivererId": 0,
         "userId": 1,
         "tipAmount": 5.23,
-        "date": "2026/1/24",
+        "date": "1/24/2026",
         "time": "10:21"
     }
   ]
