@@ -6,6 +6,9 @@ export const OrderList = () => {
   const [orders, setOrders] = useState([])
   const [filterDate, setFilterDate] = useState(new Date())
   const [filteredOrders, setFilteredOrders] = useState([])
+  const [showPages, setShowPages] = useState(false)
+  const [currentPage, setCurrentPage] = useState(1)
+  const [pageOrders, setPageOrders] = useState([])
 
   useEffect(() => {
     getAllOrders().then(setOrders)
@@ -19,6 +22,20 @@ export const OrderList = () => {
     )
   }, [orders, filterDate])
 
+  useEffect(() => {
+    if (filteredOrders.length > 20) {
+      setShowPages(true)
+    } else {
+      setShowPages(false)
+    }
+    setCurrentPage(1)
+  }, [filteredOrders])
+
+  useEffect(() => {
+    const pageStart = (currentPage - 1) * 20
+    setPageOrders(filteredOrders.slice(pageStart, pageStart + 20))
+  }, [currentPage, filteredOrders])
+
   const handleFilter = (event) => {
     let copy = structuredClone(filterDate)
     if (event.target.id === 'year-input') {
@@ -31,6 +48,15 @@ export const OrderList = () => {
       copy.setDate(event.target.value)
     }
     setFilterDate(copy)
+  }
+
+  const handlePage = (event) => {
+    if (event.target.id === 'prev-page') {
+      setCurrentPage((oldPage) => oldPage - 1)
+    }
+    if (event.target.id === 'next-page') {
+      setCurrentPage((oldPage) => oldPage + 1)
+    }
   }
 
   return (
@@ -68,7 +94,7 @@ export const OrderList = () => {
         </label>
       </div>
       <div className="order-list">
-        {filteredOrders.map((order) => {
+        {pageOrders.map((order) => {
           return (
             <div className="order-item" key={order.id}>
               <h2 className="order-title">Order #{order.id}</h2>
@@ -80,6 +106,21 @@ export const OrderList = () => {
           )
         })}
       </div>
+      {showPages && (
+        <footer className="page-bar">
+          {currentPage > 1 && (
+            <button className="page-btn" id="prev-page" onClick={handlePage}>
+              Prev
+            </button>
+          )}
+          Page: {currentPage}
+          {currentPage * 20 < filteredOrders.length && (
+            <button className="page-btn" id="next-page" onClick={handlePage}>
+              Prev
+            </button>
+          )}
+        </footer>
+      )}
     </>
   )
 }
