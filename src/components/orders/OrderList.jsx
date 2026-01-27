@@ -15,11 +15,17 @@ export const OrderList = () => {
   }, [])
 
   useEffect(() => {
-    setFilteredOrders(
-      orders.filter(
-        (order) => order.date === filterDate.toLocaleDateString('en-us')
+    const filteredArray = orders.filter((order) => {
+      const orderDate = new Date(order.date)
+      return (
+        orderDate.toLocaleDateString('en-us') ===
+        filterDate.toLocaleDateString('en-us')
       )
-    )
+    })
+    const sortedArray = filteredArray.sort((order1, order2) => {
+      return new Date(order2.date).getTime() - new Date(order1.date).getTime()
+    })
+    setFilteredOrders(sortedArray)
   }, [orders, filterDate])
 
   useEffect(() => {
