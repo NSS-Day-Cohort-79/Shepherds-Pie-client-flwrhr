@@ -16,5 +16,271 @@
       "address": "1349 Main Street Nashville, TN",
       "isAdmin": false
     }
+  ],
+  "orders": [
+    {
+        "id": 1,
+        "tableNumber": 0,
+        "customerName": "Avalon Graham",
+        "phoneNumber": "6151247894",
+        "address": "843 Brook Ave Nashville, TN",
+        "delivererId": 2,
+        "userId": 1,
+        "tipAmount": 5.23,
+        "date": "2026-01-23T05:06:20.776Z"
+    },
+    {
+        "id": 2,
+        "tableNumber": 1,
+        "customerName": "Brick Danforth",
+        "phoneNumber": "6159423167",
+        "address": "934 21st Ave Nashville, TN",
+        "delivererId": 0,
+        "userId": 1,
+        "tipAmount": 5.23,
+        "date": "2026-01-24T06:06:20.776Z"
+    },
+    {
+        "id": 3,
+        "tableNumber": 0,
+        "customerName": "Avalon Graham",
+        "phoneNumber": "6151247894",
+        "address": "843 Brook Ave Nashville, TN",
+        "delivererId": 2,
+        "userId": 1,
+        "tipAmount": 5.23,
+        "date": "2026-01-23T07:06:20.776Z"
+    },
+    {
+        "id": 4,
+        "tableNumber": 0,
+        "customerName": "Avalon Graham",
+        "phoneNumber": "6151247894",
+        "address": "843 Brook Ave Nashville, TN",
+        "delivererId": 2,
+        "userId": 1,
+        "tipAmount": 5.23,
+        "date": "2026-01-23T08:06:20.776Z"
+    },
+    {
+        "id": 5,
+        "tableNumber": 0,
+        "customerName": "Avalon Graham",
+        "phoneNumber": "6151247894",
+        "address": "843 Brook Ave Nashville, TN",
+        "delivererId": 2,
+        "userId": 1,
+        "tipAmount": 5.23,
+        "date": "2026-01-23T09:06:20.776Z"
+    },
+    {
+        "id": 6,
+        "tableNumber": 0,
+        "customerName": "Avalon Graham",
+        "phoneNumber": "6151247894",
+        "address": "843 Brook Ave Nashville, TN",
+        "delivererId": 2,
+        "userId": 1,
+        "tipAmount": 5.23,
+        "date": "2026-01-23T10:06:20.776Z"
+    },
+    {
+        "id": 7,
+        "tableNumber": 0,
+        "customerName": "Avalon Graham",
+        "phoneNumber": "6151247894",
+        "address": "843 Brook Ave Nashville, TN",
+        "delivererId": 2,
+        "userId": 1,
+        "tipAmount": 5.23,
+        "date": "2026-01-23T11:06:20.776Z"
+    },
+    {
+        "id": 8,
+        "tableNumber": 0,
+        "customerName": "Avalon Graham",
+        "phoneNumber": "6151247894",
+        "address": "843 Brook Ave Nashville, TN",
+        "delivererId": 2,
+        "userId": 1,
+        "tipAmount": 5.23,
+        "date": "2026-01-23T12:06:20.776Z"
+    },
+    {
+        "id": 9,
+        "tableNumber": 0,
+        "customerName": "Avalon Graham",
+        "phoneNumber": "6151247894",
+        "address": "843 Brook Ave Nashville, TN",
+        "delivererId": 2,
+        "userId": 1,
+        "tipAmount": 5.23,
+        "date": "2026-01-23T13:06:20.776Z"
+    },
+    {
+        "id": 10,
+        "tableNumber": 0,
+        "customerName": "Avalon Graham",
+        "phoneNumber": "6151247894",
+        "address": "843 Brook Ave Nashville, TN",
+        "delivererId": 2,
+        "userId": 1,
+        "tipAmount": 5.23,
+        "date": "2026-01-23T14:06:20.776Z"
+    },
+    {
+        "id": 11,
+        "tableNumber": 0,
+        "customerName": "Avalon Graham",
+        "phoneNumber": "6151247894",
+        "address": "843 Brook Ave Nashville, TN",
+        "delivererId": 2,
+        "userId": 1,
+        "tipAmount": 5.23,
+        "date": "2026-01-23T15:06:20.776Z"
+    },
+    {
+        "id": 12,
+        "tableNumber": 0,
+        "customerName": "Avalon Graham",
+        "phoneNumber": "6151247894",
+        "address": "843 Brook Ave Nashville, TN",
+        "delivererId": 2,
+        "userId": 1,
+        "tipAmount": 5.23,
+        "date": "2026-01-23T16:06:20.776Z"
+    },
+    {
+        "id": 13,
+        "tableNumber": 0,
+        "customerName": "Avalon Graham",
+        "phoneNumber": "6151247894",
+        "address": "843 Brook Ave Nashville, TN",
+        "delivererId": 2,
+        "userId": 1,
+        "tipAmount": 5.23,
+        "date": "2026-01-23T17:06:20.776Z"
+    },
+    {
+        "id": 14,
+        "tableNumber": 0,
+        "customerName": "Avalon Graham",
+        "phoneNumber": "6151247894",
+        "address": "843 Brook Ave Nashville, TN",
+        "delivererId": 2,
+        "userId": 1,
+        "tipAmount": 5.23,
+        "date": "2026-01-23T18:06:20.776Z"
+    },
+    {
+        "id": 15,
+        "tableNumber": 0,
+        "customerName": "Avalon Graham",
+        "phoneNumber": "6151247894",
+        "address": "843 Brook Ave Nashville, TN",
+        "delivererId": 2,
+        "userId": 1,
+        "tipAmount": 5.23,
+        "date": "2026-01-23T19:06:20.776Z"
+    },
+    {
+        "id": 16,
+        "tableNumber": 0,
+        "customerName": "Avalon Graham",
+        "phoneNumber": "6151247894",
+        "address": "843 Brook Ave Nashville, TN",
+        "delivererId": 2,
+        "userId": 1,
+        "tipAmount": 5.23,
+        "date": "2026-01-23T20:00:20.776Z"
+    },
+    {
+        "id": 17,
+        "tableNumber": 0,
+        "customerName": "Avalon Graham",
+        "phoneNumber": "6151247894",
+        "address": "843 Brook Ave Nashville, TN",
+        "delivererId": 2,
+        "userId": 1,
+        "tipAmount": 5.23,
+        "date": "2026-01-23T20:01:20.776Z"
+    },
+    {
+        "id": 18,
+        "tableNumber": 0,
+        "customerName": "Avalon Graham",
+        "phoneNumber": "6151247894",
+        "address": "843 Brook Ave Nashville, TN",
+        "delivererId": 2,
+        "userId": 1,
+        "tipAmount": 5.23,
+        "date": "2026-01-23T20:02:20.776Z"
+    },
+    {
+        "id": 19,
+        "tableNumber": 0,
+        "customerName": "Avalon Graham",
+        "phoneNumber": "6151247894",
+        "address": "843 Brook Ave Nashville, TN",
+        "delivererId": 2,
+        "userId": 1,
+        "tipAmount": 5.23,
+        "date": "2026-01-23T20:03:20.776Z"
+    },
+    {
+        "id": 20,
+        "tableNumber": 0,
+        "customerName": "Avalon Graham",
+        "phoneNumber": "6151247894",
+        "address": "843 Brook Ave Nashville, TN",
+        "delivererId": 2,
+        "userId": 1,
+        "tipAmount": 5.23,
+        "date": "2026-01-23T20:04:20.776Z"
+    },
+    {
+        "id": 21,
+        "tableNumber": 0,
+        "customerName": "Avalon Graham",
+        "phoneNumber": "6151247894",
+        "address": "843 Brook Ave Nashville, TN",
+        "delivererId": 2,
+        "userId": 1,
+        "tipAmount": 5.23,
+        "date": "2026-01-23T20:05:20.776Z"
+    },
+    {
+        "id": 22,
+        "tableNumber": 1,
+        "customerName": "Brick Danforth",
+        "phoneNumber": "6159423167",
+        "address": "934 21st Ave Nashville, TN",
+        "delivererId": 0,
+        "userId": 1,
+        "tipAmount": 5.23,
+        "date": "2026-01-24T20:06:20.776Z"
+    },
+    {
+        "id": 23,
+        "tableNumber": 0,
+        "customerName": "Avalon Graham",
+        "phoneNumber": "6151247894",
+        "address": "843 Brook Ave Nashville, TN",
+        "delivererId": 2,
+        "userId": 1,
+        "tipAmount": 5.23,
+        "date": "2026-01-23T21:06:20.776Z"
+    },
+    {
+        "id": 24,
+        "tableNumber": 0,
+        "customerName": "Avalon Graham",
+        "phoneNumber": "6151247894",
+        "address": "843 Brook Ave Nashville, TN",
+        "delivererId": 2,
+        "userId": 1,
+        "tipAmount": 5.23,
+        "date": "2026-01-23T22:06:20.776Z"
+    }
   ]
 }
