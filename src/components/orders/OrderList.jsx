@@ -116,7 +116,7 @@ export const OrderList = () => {
           Page: {currentPage}
           {currentPage * 20 < filteredOrders.length && (
             <button className="page-btn" id="next-page" onClick={handlePage}>
-              Prev
+              Next
             </button>
           )}
         </footer>

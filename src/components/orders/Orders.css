@@ -1,13 +1,32 @@
 .order-list {
+    flex: 1;
     display: flex;
     flex-direction: column;
 }
 
 .order-item {
-    flex: auto;
-    border: solid var(--primary);
+    flex: 0;
+    background-color: var(--md-sys-color-secondary-container);
+    border: solid var(--md-sys-color-outline);
+    box-shadow: 2px 2px 1px var(--md-sys-color-shadow);
     margin: 1rem;
     padding: 1rem;
+    transition: 0.1s;
+}
+
+.order-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 5px 5px 2px var(--md-sys-color-shadow);
+}
+
+.order-title {
+    color: var(--md-sys-color-on-secondary-container);
+    padding: 1px;
+}
+
+.order-info {
+    color: var(--md-sys-color-on-secondary-container);
+    padding: 1px;
 }
 
 .filter-bar {
@@ -16,4 +35,12 @@
 
 .filter-info {
     margin: .5rem;
+}
+
+.page-btn {
+	background-color: var(--md-sys-color-tertiary);
+	border-radius: 7px;
+	padding: 3px 8px;
+	color: var(--md-sys-color-on-tertiary);
+	border-width: 0;
 }
