@@ -44,3 +44,38 @@
 	color: var(--md-sys-color-on-tertiary);
 	border-width: 0;
 }
+
+.order-details {
+    display: flex;
+    flex-direction: row;
+}
+
+.details-card {
+    flex: 1 1 25%;
+    border: solid var(--md-sys-color-outline);
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.pizza-list {
+    flex: 1 1 75%;
+}
+
+.pizza-item {
+    flex: 0;
+    background-color: var(--md-sys-color-secondary-container);
+    border: solid var(--md-sys-color-outline);
+    box-shadow: 2px 2px 1px var(--md-sys-color-shadow);
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.pizza-details {
+    margin: .1rem 1rem;
+}
+
+.topping-list {
+    margin: 2rem;
+}
