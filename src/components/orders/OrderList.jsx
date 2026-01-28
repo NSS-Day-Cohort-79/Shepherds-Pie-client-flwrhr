@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { getAllOrders } from '../../services/orderService'
 import './Orders.css'
+import { useNavigate } from 'react-router-dom'
 
 export const OrderList = () => {
   const [orders, setOrders] = useState([])
@@ -9,6 +10,8 @@ export const OrderList = () => {
   const [showPages, setShowPages] = useState(false)
   const [currentPage, setCurrentPage] = useState(1)
   const [pageOrders, setPageOrders] = useState([])
+
+  const navigate = useNavigate()
 
   useEffect(() => {
     getAllOrders().then(setOrders)
@@ -102,7 +105,11 @@ export const OrderList = () => {
       <div className="order-list">
         {pageOrders.map((order) => {
           return (
-            <div className="order-item" key={order.id}>
+            <div
+              className="order-item"
+              key={order.id}
+              onClick={() => navigate(`${order.id}`)}
+            >
               <h2 className="order-title">Order #{order.id}</h2>
               <p className="order-info">Customer Name: {order.customerName}</p>
               <p className="order-info">
